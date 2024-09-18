@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-// Define the schema (with only phone number in contactInfo)
 const clientSchema = new mongoose.Schema({
   clientId:String,
   clientName: String,

@@ -2,8 +2,10 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const Client = require("./db/index")
+require('dotenv').config();
 
-mongoose.connect("mongodb+srv://admin:admin987@cluster0.gkmx6.mongodb.net/");
+
+mongoose.connect(process.env.MONGO_URI);
 const app = express();
 const cors =require('cors')
 app.use(bodyParser.json())
