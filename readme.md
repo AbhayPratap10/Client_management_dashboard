@@ -2,6 +2,15 @@
 
 This is a full-stack web application to manage job sheets, clients, and inventory, built with **React**, **Express.js**, **MongoDB**, and **Node.js**. The dashboard allows users to create, edit, delete, and view job sheets with functionality for file uploads and status tracking.
 
+# Screenshots
+
+![Dashboard Screenshot](./screenshots/dashboard.png)
+![ViewPage](./screenshots/viewpage.png)
+![createJobPage](./screenshots/createJobPage.png)
+![editJobPage](./screenshots/editJobPage.png)
+
+
+
 ## Table of Contents
 
 - [Features](#features)
